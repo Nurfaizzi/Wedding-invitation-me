@@ -202,7 +202,7 @@ const Index = () => {
             priority
           />
         </div>
-        <div className="flex flex-col  mx-auto text-center items-center justify-center relative">
+        <div className="flex flex-col  mx-auto text-center items-center justify-center relative ">
           <div className="relative text-center gap-4 flex flex-col">
             <Image
               src={wayang2}
@@ -215,11 +215,11 @@ const Index = () => {
               viewport={{ once: true, amount: 0.5 }} // Trigger when 50% of the element is visible
               transition={{ duration: 0.8 }}
             >
-              <h1 className="font-blod text-xl<div></div> font-semibold text-white">
+              <h1 className="font-blod text-xl font-semibold text-white">
                 Waktu & Tempat{" "}
               </h1>
               <h1
-                className={`font-blod lg:text-8xl xl:text-8xl text-6xl text-center justify-center font-serif flex text-orange-400`}
+                className={`font-blod lg:text-8xl xl:text-8xl text-4xl text-center justify-center font-serif flex text-orange-400`}
               >
                 pernikahan
               </h1>
@@ -246,7 +246,7 @@ const Index = () => {
             />
           </div>
           <div className="flex justify-between items-center  text-center lg:p-10 xl:p-10 p-13 gap-8 lg:flex-row xl:flex-row flex-col relative ">
-            <div className="rounded-t-full min-h-full items-center bg-white border-orange-200 shadow-amber-200 shadow-2xl border-4 flex px-6 py-8 flex-col w-100 h-100">
+            <div className="rounded-t-full min-h-full items-center bg-white border-orange-200 shadow-amber-200 shadow-2xl border-4 flex px-4 py-3 flex-col lg:w-100 md:w-100 xl:w-100 w-80 h-100">
               <Image src={burung} alt="wayang" className="w-20 " />
               <h1 className=" font-bold text-gray-500">AKAD</h1>
               <h1
@@ -267,7 +267,7 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="rounded-t-full rotate-180 lg:rotate-none items-center lg:pt-8 xl:pt-8 pt-8 xl:rotate-none min-h-full bg-white border-orange-200 shadow-amber-200 shadow-2xl border-4 flex px-6 lg:py-8 xl:py-8 py-18 flex-col w-96 h-100">
+            <div className="rounded-t-full rotate-180 lg:rotate-none items-center lg:pt-8 xl:pt-8 pt-8 xl:rotate-none min-h-full bg-white border-orange-200 shadow-amber-200 shadow-2xl border-4 flex px-6 lg:py-8 xl:py-8 py-18 flex-col lg:w-100 md:w-100 xl:w-100 w-80 h-100 h-100">
               <div className="rotate-180 lg:rotate-none xl:rotate-none items-center flex flex-col  ">
                 <Image src={burung} alt="wayang" className="w-20 " />
                 <h1 className=" font-bold text-gray-500">Resepsi</h1>

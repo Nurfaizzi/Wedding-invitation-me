@@ -61,7 +61,7 @@ const Timer = ({ launchDate }: { launchDate: string }) => {
     <div className='absolute text-white flex justify-center lg:mt-6 mt-10 xl:mt-56 lg:gap-24 max-w-96 gap-8 xl:gap-24 pl-10 font-bold'>
 
       <div>
-     <p className={`flex flex-col justify-center items-center  opacity-200 text-white py-3 shadow-lg rounded-xl pt-13 text-6xl lg:text-7xl`}>
+     <p className={`flex flex-col justify-center items-center  opacity-200 text-white py-3 shadow-lg rounded-xl pt-13 text-4xl lg:text-7xl`}>
           {timeLeft.days}
       
       </p>
@@ -73,7 +73,7 @@ const Timer = ({ launchDate }: { launchDate: string }) => {
 
 
 <div>
-   <p className={`flex flex-col justify-center items-center opacity-200 text-white pt-13 text-6xl lg:text-7xl py-3 shadow-lg rounded-xl  `}>
+   <p className={`flex flex-col justify-center items-center opacity-200 text-white pt-13 text-4xl lg:text-7xl py-3 shadow-lg rounded-xl  `}>
         {timeLeft.hours}
       </p>
         <p className='font-bold text-orange-400 text-xl'>
@@ -85,7 +85,7 @@ const Timer = ({ launchDate }: { launchDate: string }) => {
 
 
       <div>
-  <p className={`flex flex-col justify-center items-center  opacity-200  pt-13 text-6xl lg:text-7xl py-3  shadow-lg rounded-xl`}>
+  <p className={`flex flex-col justify-center items-center  opacity-200  pt-13 text-4xl lg:text-7xl py-3  shadow-lg rounded-xl`}>
          {timeLeft.minutes}
       </p>
         <p className='text-orange-400 font-bold text-xl'>
@@ -93,7 +93,7 @@ const Timer = ({ launchDate }: { launchDate: string }) => {
         </p>
       </div>
       <div>
-    <p className={`flex flex-col justify-center items-center opacity-200 text-white pt-13 text-6xl lg:text-7xl py-3 shadow-lg rounded-xl `}>
+    <p className={`flex flex-col justify-center items-center opacity-200 text-white pt-13 text-4xl lg:text-7xl py-3 shadow-lg rounded-xl `}>
         {timeLeft.seconds}
       </p>
       <p className='font-bold text-orange-400 text-xl'>
