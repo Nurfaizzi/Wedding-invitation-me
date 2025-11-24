@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 
 const Moments = () => {
   return (
-    <div className="pt-40">
+    <div className="mt-100 pt-50 xl:pt-40 lg:40 xl:mt-0 lg:mt-0">
       <div className="flex flex-col justify-center text-center gap-3 pr-16 pl-16">
         <h1 className="text-xl text-white">Moments</h1>
         <h5 className={`font-serif text-orange-400 xl:text-6xl text-4xl lg:text-6xl`}>

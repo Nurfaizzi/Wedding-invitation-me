@@ -9,7 +9,7 @@ const Galery = () => {
   return (
     <div>
 
-<div className=' bg-red-950  relative  w-100vw h-screen   ' >
+<div className=' bg-red-950  relative  xl:w-100vw lg:100vw xl:h-screen   lg:h-screen   ' >
   
   
         <div className='opacity-10'>

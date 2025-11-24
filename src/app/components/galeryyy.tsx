@@ -8,14 +8,14 @@ import galery3 from "/public/galery3.png"
 
 const Galeryyy = () => {
   return (
- <div className=' bg-red-950   relative  w-100vw h-screen  ' >
+ <div className=' bg-red-950   relative  xl:w-100vw lg:100vw xl:h-screen   lg:h-screen   ' >
         <div className='opacity-10'>
  <Image
     
           src={batik}
          fill
           alt="hello"
-          sizes="100vw"
+          sizes="90vw"
           style={{ objectFit: "cover",}}
           priority
         />
@@ -23,8 +23,8 @@ const Galeryyy = () => {
         </div>
 
 
-<div className="lg:pt-20 xl:pt-18 xl:p-32 lg:p-32 p-8 flex xl:justiyfy-start justify-center lg:justify-start ">
-           <div className="lg:max-w-sm xl:max-w-sm max-w-sm lg:h-110 xl:h-110 h-130    absolute  bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col lg:justify-end xl:justify-end gap-8">
+<div className="lg:pt-20 xl:pt-18 xl:p-32 lg:p-32 lg:mt-0  mt-120 mb-50 pt-20  flex xl:justiyfy-start justify-center lg:justify-start ">
+           <div className="lg:max-w-sm xl:max-w-sm max-w-sm lg:h-110 xl:h-110    absolute  bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col lg:justify-end xl:justify-end gap-8">
 <Image style={{padding:10}} alt='image'
 src={galery3} />
     <div className=" p-3">
