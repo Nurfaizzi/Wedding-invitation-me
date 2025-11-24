@@ -24,7 +24,7 @@ const Galeryy = () => {
 
 
 <div className="lg:pt-0 xl:pt-18 xl:p-32 lg:p-32 xl:mt-10 lg:mt-0  mt-100 pt-20 flex xl:justiyfy-end justify-center lg:justify-end ">
-           <div className="lg:max-w-sm xl:max-w-sm max-w-sm  lg:h-110 xl:h-110 h-130   absolute  bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col lg:justify-end xl:justify-end gap-8">
+           <div className="lg:max-w-sm xl:max-w-sm max-w-xs  lg:h-110 xl:h-110 h-130   absolute  bg-white border border-gray-200 rounded-lg shadow-sm flex flex-col lg:justify-end xl:justify-end gap-8">
 <Image style={{padding:10}} alt='image'
 src={galery2} />
     <div className=" p-3">
