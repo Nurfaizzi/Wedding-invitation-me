@@ -14,7 +14,7 @@ const Moments = () => {
     <div className="pt-40">
       <div className="flex flex-col justify-center text-center gap-3 pr-16 pl-16">
         <h1 className="text-xl text-white">Moments</h1>
-        <h5 className={` text-orange-400 text-6xl`}>
+        <h5 className={`font-serif text-orange-400 xl:text-6xl text-4xl lg:text-6xl`}>
           Bahagia Kami
         </h5>
         <p className="text-white">

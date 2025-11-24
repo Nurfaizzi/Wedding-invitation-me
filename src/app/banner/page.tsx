@@ -26,8 +26,6 @@ import Link from "next/link";
 import { useAudio } from "react-use";
 import { motion } from "framer-motion";
 
-
-
 const Index = () => {
   const [Audio, state, constrols, ref] = useAudio({
     src: "/laguu.mp3",
@@ -96,7 +94,7 @@ const Index = () => {
           </motion.div>
         </div>
 
-        <div className=" lg:pt-20 xl:pt-30 md:pt-90 pt-20 flex flex-col  mx-auto text-center items-center justify-center relative">
+        <div className=" lg:pt-20 xl:pt-30 md:pt-90 pt-0 flex flex-col  mx-auto text-center items-center justify-center relative">
           <div className="relative text-center">
             <div className="w-full left-0 text-center mt-10">
               <div className="flex items-center justify-center">
@@ -139,13 +137,13 @@ const Index = () => {
         // Animation duration and easing
         viewport={{ once: true, amount: 0.5 }} // Only animate once and when 50% of the element is visible
       >
-        <div className="relative   min-h-screen">
+        <div className="relative mb-48">
           <div className="flex text-center justify-center p-6 gap-8">
-            <h1 className="text-white flex absolute  text-2xl lg:text-3xl  font-extrabold">
+            <h1 className="text-white flex absolute  text-2xl lg:text-3xl font-serif">
               Hitung Mundur
             </h1>
             <h2
-              className={`absolute pt-13 text-4xl lg:text-7xl  text-orange-400 text-center`}
+              className={`absolute pt-13 text-4xl lg:text-7xl font-serif  text-orange-400 text-center`}
             >
               Menuju Hari Bahagia
             </h2>
@@ -221,7 +219,7 @@ const Index = () => {
                 Waktu & Tempat{" "}
               </h1>
               <h1
-                className={`font-blod lg:text-8xl xl:text-8xl text-6xl text-center justify-center flex text-orange-400`}
+                className={`font-blod lg:text-8xl xl:text-8xl text-6xl text-center justify-center font-serif flex text-orange-400`}
               >
                 pernikahan
               </h1>
@@ -257,14 +255,8 @@ const Index = () => {
                 Pernikahan
               </h1>
               <div className={`flex flex-col pt-10 `}>
-                <p
-                  className={`text-orange-400 text-4xl`}
-                >
-                  10
-                </p>
-                <p className={`text-black text-2xl`}>
-                  Desember 2025
-                </p>
+                <p className={`text-orange-400 text-4xl`}>10</p>
+                <p className={`text-black text-2xl`}>Desember 2025</p>
               </div>
 
               <div className={`flex flex-col pt-10 `}>
@@ -285,16 +277,8 @@ const Index = () => {
                   Pernikahan
                 </h1>
                 <div className={`flex flex-col pt-10 `}>
-                  <p
-                    className={`text-orange-400 text-4xl`}
-                  >
-                    10
-                  </p>
-                  <p
-                    className={`text-black text-2xl`}
-                  >
-                    Desember 2025
-                  </p>
+                  <p className={`text-orange-400 text-4xl`}>10</p>
+                  <p className={`text-black text-2xl`}>Desember 2025</p>
                 </div>
 
                 <div className={`flex flex-col pt-10 `}>
@@ -323,7 +307,7 @@ const Index = () => {
         </div>
 
         <div>
-          <div className="justify-center items-center  text-center flex-col gap-3 p-16">
+          <div className="justify-center items-center  text-center flex-col gap-3 p-6 mb-10">
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -331,11 +315,7 @@ const Index = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-xl text-white">Bertempat Di</h1>
-              <h1
-                className={`text-4xl text-yellow-400 `}
-              >
-                Mempelai Wanita
-              </h1>
+              <h1 className={`text-4xl text-yellow-400 font-serif pt-3 `}>Mempelai Wanita</h1>
               <p className="text-white text-md">
                 Dusun Kalimaro, 01/08 Bapangsari, Kec. Bagelen, Kabupaten
                 Purworejo, Jawa Tengah 54174

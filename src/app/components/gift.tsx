@@ -63,7 +63,7 @@ const Gift = () => {
       >
         <div className="flex justify-center text-center">
           <h1
-            className={`absolute bg-red-950 justify-center  lg:pt-10 xl:pt-0 pt-5 text-4xl lg:text-6xl  text-orange-400 text-center font-semibold tracking-wider`}
+            className={`font-serif absolute bg-red-950 justify-center  lg:pt-10 xl:pt-0 pt-5 text-3xl lg:text-6xl  text-orange-400 text-center font-semibold tracking-wider`}
           >
             Wedding Gift
           </h1>

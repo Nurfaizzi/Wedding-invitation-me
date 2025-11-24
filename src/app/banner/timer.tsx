@@ -58,7 +58,7 @@ const Timer = ({ launchDate }: { launchDate: string }) => {
 
 
   return (
-    <div className='absolute text-white flex justify-center pl-13 lg:mt-6 mt-10 xl:mt-56 lg:gap-24 max-w-96 gap-8 xl:gap-24 font-bold'>
+    <div className='absolute text-white flex justify-center lg:mt-6 mt-10 xl:mt-56 lg:gap-24 max-w-96 gap-8 xl:gap-24 pl-10 font-bold'>
 
       <div>
      <p className={`flex flex-col justify-center items-center  opacity-200 text-white py-3 shadow-lg rounded-xl pt-13 text-6xl lg:text-7xl`}>
