@@ -1,7 +1,7 @@
 const config = {
   plugins: ["@tailwindcss/postcss"],
 
-    theme: {
+
     screens: {
       'sm': '640px',
       'md': '768px',
@@ -9,7 +9,7 @@ const config = {
       'xl': '1280px',
       '2xl': '1536px',
       // Add your custom screens here
-    },
+    
   }
 };
 
