@@ -113,7 +113,7 @@ const Gift = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="p-4 max-w-xs">
-            <div className="flex  rounded-lg h-full dark:bg-gray-800 bg-white p-8 flex-col">
+            <div className="flex  rounded-lg h-full  bg-white p-8 flex-col">
               <div className="flex items-center ">
                 <Image src={bca} alt="gopay" width={180} />
               </div>
@@ -143,7 +143,7 @@ const Gift = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="p-4 lg:max-w-2xl xl:max-w-2xl max-w-xs gap-4">
-            <div className="flex rounded-lg h-full dark:bg-gray-800 bg-white p-8 flex-col">
+            <div className="flex rounded-lg h-full  bg-white p-8 flex-col">
               <div className="flex flex-col items-center mb-3">
                 <div className="w-100 mr-3 inline-flex items-center justify-center  text-black ">
                   <Image src={kado} alt="kado" width={100} />
