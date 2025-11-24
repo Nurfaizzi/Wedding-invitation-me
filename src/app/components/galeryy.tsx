@@ -29,7 +29,7 @@ const Galeryy = () => {
 src={galery2} />
     <div className=" p-3">
         <a href="#">
-            <h5 className={`  text-4xl tracking-tight  lg:text-start xl:text-start text-center  font-serif  text-orange-400`}>Pendekatam</h5>
+            <h5 className={`  text-4xl tracking-tight  lg:text-start xl:text-start text-center  font-serif  text-orange-400`}>Pendekatan</h5>
         </a>
         <p className="mb-3 font-normal text-gray-700  lg:text-sm xl:text-sm text-md lg:text-start xl:text-start text-center dark:text-gray-400">Baiknya jalinan komunikasi di antara kami membuat kami saling merasa nyaman, di sela kesibukan kami sesekali memutuskan untuk sekedar menikmati indahnya kota Jogjakarta yang romantis. Rasa tidak ingin kehilangan di antara kami mulai tumbuh, jauh di lubuk hati terbesit rasa ingin selalu Bersama dan saling memiliki.
 
