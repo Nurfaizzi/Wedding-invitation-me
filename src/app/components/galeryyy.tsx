@@ -2,13 +2,10 @@ import React from 'react'
 import batik from '/public/batik.png'
 import Image from 'next/image'
 import galery1 from "/public/galery1.png"
-import localfont from "next/font/local";
+
 import galery3 from "/public/galery3.png"
 
-export const fontjavasoul = localfont({
-  src: "../banner/JavasSoul.woff2",
-  variable: "--font-JavasSoul",
-});
+
 const Galeryyy = () => {
   return (
  <div className=' bg-red-950   relative  w-100vw h-screen  ' >
