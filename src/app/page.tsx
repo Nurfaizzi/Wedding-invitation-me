@@ -17,7 +17,7 @@ const Banner = () => {
 
   return (
     <div>
- <div className=" bg-red-950 opacity-100 font-sans pl-16 pr-16 pt-20 min-h-screen  flex flex-col">
+ <div className=" bg-red-950 opacity-100 font-sans pl-16 pr-16 min-h-screen  flex flex-col">
     
             <div className='opacity-40'>
  <Image
@@ -41,7 +41,7 @@ const Banner = () => {
 
       <div className="flex pt-3 flex-col mx-auto text-center items-center gap-2 justify-center animate-fade-down animate-infinite ">
       <h1 className={`  absolute pt-70 xl:pt-80 lg:pt-80 md:pt-40 lg:text-6xl xl:text-6xl text-4xl flex text-white  `}>Aya & Rasyid</h1>
-      <p className="text-white text-xl absolute pt-95 xl:pt-105 lg:pt-105 md:pt-60">10 . 12 . 25</p>
+      <p className="text-white text-xl absolute pt-85 xl:pt-105 lg:pt-105 md:pt-60">10 . 12 . 25</p>
      </div>
        <div className="flex  flex-col mx-auto text-center items-center gap-0 pt-8 justify-center">
         <p className="text-white text-md absolute pt-100 xl:pt-130 lg:pt-150 md:pt-80 ">Kepada Yth;</p>
