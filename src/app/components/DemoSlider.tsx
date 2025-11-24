@@ -10,13 +10,6 @@ import "swiper/css/navigation";
 
 import "swiper/css/pagination"
 
-import localfont from "next/font/local";
-
-
-export const fontjavasoul = localfont({
-  src: "../banner/JavasSoul.woff2",
-  variable: "--font-JavasSoul",
-});
 
 // Our custom button component
 import SliderButtons from "./SliderButton";
@@ -70,7 +63,7 @@ const DemoSlider: React.FC<DemoSliderProps> = ({ data }) => {
                         {tagline}
                       </p>
                     )}
-                    <p className={`text-3xl sm:text-6xl lg:text-8xl font-bold pt-8 ${fontjavasoul.className} text-orange-500`}>
+                    <p className={`text-3xl sm:text-6xl lg:text-8xl font-bold pt-8  text-orange-500`}>
                       {title}
                     </p>
                      <p className="text-sm sm:text-6xl lg:text-sm pt-6 font-bold text-white flex gap-36 leading-relaxed text">
