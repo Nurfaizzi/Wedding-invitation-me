@@ -3,13 +3,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { Interface } from 'readline'
-import localfont from "next/font/local"
-
-
-export const fontjavasoul = localfont({
-  src:"./JavasSoul.woff2",
-  variable : "--font-JavasSoul"
-})
 
 interface TimeCount {
   days: string;
@@ -68,7 +61,7 @@ const Timer = ({ launchDate }: { launchDate: string }) => {
     <div className='absolute text-white flex justify-center pl-13 lg:mt-6 mt-10 xl:mt-56 lg:gap-24 max-w-96 gap-8 xl:gap-24 font-bold'>
 
       <div>
-     <p className={`flex flex-col justify-center items-center  opacity-200 text-white py-3 shadow-lg rounded-xl pt-13 text-6xl lg:text-7xl ${fontjavasoul.className}`}>
+     <p className={`flex flex-col justify-center items-center  opacity-200 text-white py-3 shadow-lg rounded-xl pt-13 text-6xl lg:text-7xl`}>
           {timeLeft.days}
       
       </p>
@@ -80,7 +73,7 @@ const Timer = ({ launchDate }: { launchDate: string }) => {
 
 
 <div>
-   <p className={`flex flex-col justify-center items-center opacity-200 text-white pt-13 text-6xl lg:text-7xl py-3 shadow-lg rounded-xl ${fontjavasoul.className} `}>
+   <p className={`flex flex-col justify-center items-center opacity-200 text-white pt-13 text-6xl lg:text-7xl py-3 shadow-lg rounded-xl  `}>
         {timeLeft.hours}
       </p>
         <p className='font-bold text-orange-400 text-xl'>
@@ -92,7 +85,7 @@ const Timer = ({ launchDate }: { launchDate: string }) => {
 
 
       <div>
-  <p className={`flex flex-col justify-center items-center  opacity-200  pt-13 text-6xl lg:text-7xl py-3  shadow-lg rounded-xl ${fontjavasoul.className}`}>
+  <p className={`flex flex-col justify-center items-center  opacity-200  pt-13 text-6xl lg:text-7xl py-3  shadow-lg rounded-xl`}>
          {timeLeft.minutes}
       </p>
         <p className='text-orange-400 font-bold text-xl'>
@@ -100,7 +93,7 @@ const Timer = ({ launchDate }: { launchDate: string }) => {
         </p>
       </div>
       <div>
-    <p className={`flex flex-col justify-center items-center opacity-200 text-white pt-13 text-6xl lg:text-7xl py-3 shadow-lg rounded-xl ${fontjavasoul.className}`}>
+    <p className={`flex flex-col justify-center items-center opacity-200 text-white pt-13 text-6xl lg:text-7xl py-3 shadow-lg rounded-xl `}>
         {timeLeft.seconds}
       </p>
       <p className='font-bold text-orange-400 text-xl'>

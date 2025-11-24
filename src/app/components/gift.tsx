@@ -145,10 +145,10 @@ const Gift = () => {
           <div className="p-4 lg:max-w-2xl xl:max-w-2xl max-w-xs gap-4">
             <div className="flex rounded-lg h-full dark:bg-gray-800 bg-white p-8 flex-col">
               <div className="flex flex-col items-center mb-3">
-                <div className="w-100 mr-3 inline-flex items-center justify-center  text-black flex-shrink-0">
+                <div className="w-100 mr-3 inline-flex items-center justify-center  text-black ">
                   <Image src={kado} alt="kado" width={100} />
                 </div>
-                <div className="flex flex-col justify-between flex-grow text-center gap-4 pt-8">
+                <div className="flex flex-col justify-between text-center gap-4 pt-8">
                   <p className="text-gray-500 lg:text-2xl xl:text-2xl text-md leading-relaxed">
                     {" "}
                     Nurhayati - 0822-2502-5122
