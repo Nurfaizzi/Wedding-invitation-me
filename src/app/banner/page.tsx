@@ -10,7 +10,6 @@ import batik from "/public/batik.png";
 import ocit from "/public/ocit.jpg";
 import galery1 from "/public/galery1.png";
 import Image from "next/image";
-import localfont from "next/font/local";
 import Timer from "./timer";
 import burung from "/public/burung.png";
 import Countdown from "./timer";
@@ -27,10 +26,7 @@ import Link from "next/link";
 import { useAudio } from "react-use";
 import { motion } from "framer-motion";
 
- const FontJavaSoul = localfont({
-  src: "./JavasSoul.woff2",
-  variable: "--font-JavasSoul",
-});
+
 
 const Index = () => {
   const [Audio, state, constrols, ref] = useAudio({
@@ -149,7 +145,7 @@ const Index = () => {
               Hitung Mundur
             </h1>
             <h2
-              className={`absolute pt-13 text-4xl lg:text-7xl  text-orange-400 text-center ${FontJavaSoul.className}`}
+              className={`absolute pt-13 text-4xl lg:text-7xl  text-orange-400 text-center`}
             >
               Menuju Hari Bahagia
             </h2>
@@ -225,7 +221,7 @@ const Index = () => {
                 Waktu & Tempat{" "}
               </h1>
               <h1
-                className={`font-blod lg:text-8xl xl:text-8xl text-6xl text-center justify-center flex text-orange-400 ${FontJavaSoul.className}`}
+                className={`font-blod lg:text-8xl xl:text-8xl text-6xl text-center justify-center flex text-orange-400`}
               >
                 pernikahan
               </h1>
@@ -256,17 +252,17 @@ const Index = () => {
               <Image src={burung} alt="wayang" className="w-20 " />
               <h1 className=" font-bold text-gray-500">AKAD</h1>
               <h1
-                className={`text-decoration-line: underline underline-offset-8 font-blod lg:text-4xl xl:text-4xl text-2xl text-center justify-center flex text-orange-400 ${FontJavaSoul.className}`}
+                className={`text-decoration-line: underline underline-offset-8 font-blod lg:text-4xl xl:text-4xl text-2xl text-center justify-center flex text-orange-400`}
               >
                 Pernikahan
               </h1>
               <div className={`flex flex-col pt-10 `}>
                 <p
-                  className={`text-orange-400 text-4xl ${FontJavaSoul.className}`}
+                  className={`text-orange-400 text-4xl`}
                 >
                   10
                 </p>
-                <p className={`text-black text-2xl ${FontJavaSoul.className}`}>
+                <p className={`text-black text-2xl`}>
                   Desember 2025
                 </p>
               </div>
@@ -284,18 +280,18 @@ const Index = () => {
                 <Image src={burung} alt="wayang" className="w-20 " />
                 <h1 className=" font-bold text-gray-500">Resepsi</h1>
                 <h1
-                  className={`text-decoration-line: underline underline-offset-8 font-blod lg:text-4xl xl:text-4xl text-2xl text-center justify-center flex text-orange-400 ${FontJavaSoul.className}`}
+                  className={`text-decoration-line: underline underline-offset-8 font-blod lg:text-4xl xl:text-4xl text-2xl text-center justify-center flex text-orange-400`}
                 >
                   Pernikahan
                 </h1>
                 <div className={`flex flex-col pt-10 `}>
                   <p
-                    className={`text-orange-400 text-4xl ${FontJavaSoul.className}`}
+                    className={`text-orange-400 text-4xl`}
                   >
                     10
                   </p>
                   <p
-                    className={`text-black text-2xl ${FontJavaSoul.className}`}
+                    className={`text-black text-2xl`}
                   >
                     Desember 2025
                   </p>
@@ -336,7 +332,7 @@ const Index = () => {
             >
               <h1 className="text-xl text-white">Bertempat Di</h1>
               <h1
-                className={`text-4xl text-yellow-400 ${FontJavaSoul.className}`}
+                className={`text-4xl text-yellow-400 `}
               >
                 Mempelai Wanita
               </h1>
