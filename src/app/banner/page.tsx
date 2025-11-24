@@ -32,7 +32,7 @@ export const fontjavasoul = localfont({
   variable: "--font-JavasSoul",
 });
 
-const index = () => {
+const Index = () => {
   const [Audio, state, constrols, ref] = useAudio({
     src: "/laguu.mp3",
     autoPlay: true,
@@ -403,4 +403,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
