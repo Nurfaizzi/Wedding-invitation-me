@@ -27,7 +27,7 @@ import Link from "next/link";
 import { useAudio } from "react-use";
 import { motion } from "framer-motion";
 
-export const FontJavaSoul = localfont({
+ const FontJavaSoul = localfont({
   src: "./JavasSoul.woff2",
   variable: "--font-JavasSoul",
 });
