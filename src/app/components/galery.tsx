@@ -39,7 +39,7 @@ const Galery = () => {
 src={galery6} />
     <div className=" p-3">
         <a href="#">
-            <h5 className={` text-4xl tracking-tight  dark:text-white lg:text-start xl:text-start text-center font-serif  text-orange-400`}>Pertama Bertemu</h5>
+            <h5 className={` text-4xl tracking-tight   lg:text-start xl:text-start text-center font-serif  text-orange-400`}>Pertama Bertemu</h5>
         </a>
         <p className="mb-3 font-normal text-gray-700  lg:text-sm xl:text-sm text-sm dark:text-gray-400 lg:text-start xl:text-start text-center">Di bulan terakhir 2024 Allah menakdirkan kami berdua untuk bertemu secara tidak sengaja
 dari yang hanya mengenal nama hingga akhirnya bertukar no WhatsApp. Percakapan sederhana dimulai di sana, candaan yang setiap hari di lontarkan hingga akhirnya komunikasi terjalin baik setiap harinya.

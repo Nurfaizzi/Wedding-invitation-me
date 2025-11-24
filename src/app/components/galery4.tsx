@@ -27,7 +27,7 @@ const Galery4 = () => {
 src={galery4} />
     <div className=" p-3">
         <a href="#">
-            <h5 className={` text-4xl tracking-tight  dark:text-white lg:text-start xl:text-start text-center font-serif text-orange-400`}>Pernikahan</h5>
+            <h5 className={` text-4xl tracking-tight   lg:text-start xl:text-start text-center font-serif text-orange-400`}>Pernikahan</h5>
         </a>
         <p className="mb-3 font-normal text-gray-700  lg:text-sm xl:text-sm text-md lg:text-start xl:text-start text-center dark:text-gray-400">Pada tanggal 10 Desember 2025 kami berdua akan mengikrarkan janji suci sebagai awal dari 
 perjalanan ibadah terpanjang yang kami mulai berdua sebagai sepasang suami istri membangun keluarga kecil yang Sakinah mawadah warahmah aamiin.
