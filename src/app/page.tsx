@@ -17,7 +17,7 @@ const Banner = () => {
 
   return (
     <div>
- <div className="  opacity-100 font-sans pl-16 pr-16 pt-10 min-h-screen  flex flex-col">
+ <div className=" font-sans pl-16 pr-16 pt-10  flex flex-col">
     
             <div className='opacity-100 bg-red-950'>
  <Image
