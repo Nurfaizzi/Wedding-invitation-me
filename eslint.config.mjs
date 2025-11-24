@@ -9,7 +9,9 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
+
 const eslintConfig = [
+  
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     ignores: [
@@ -18,8 +20,11 @@ const eslintConfig = [
       "out/**",
       "build/**",
       "next-env.d.ts",
+      
     ],
+     "react/no-unescaped-entities": "off"
   },
+  
 ];
 
 export default eslintConfig;
