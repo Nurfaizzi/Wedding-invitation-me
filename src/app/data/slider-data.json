@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Aya & Rasyid",
+    "tagline": "PERNIKAHAN",
+      "titlee" : "Tanpa Mengurangi Rasa Hormat, Kami Mengundang Bapak/Ibuk/Saudara/I Untuk Hadir Di Acara Pernikahan Kami",
+    "date" : "10 Desember 2025",
+    "image":"/galeryy2.jpg",
+    "buttons": [
+
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Aya & Rasyid",
+    "tagline": "PERNIKAHAN",
+    "titlee" : "Tanpa Mengurangi Rasa Hormat, Kami Mengundang Bapak/Ibuk/Saudara/I Untuk Hadir Di Acara Pernikahan Kami",
+    "date" : "10 Desember 2025",
+    "image": "/galeryy4.png",
+    "buttons": [
+
+    ]
+  }
+]
