@@ -33,14 +33,14 @@ export const fontjavasoul = localfont({
 });
 
 const index = () => {
-  const [audio, state, constrols, ref] = useAudio({
+  const [Audio, state, constrols, ref] = useAudio({
     src: "/laguu.mp3",
     autoPlay: true,
   });
 
   return (
     <div className=" bg-red-950">
-      {audio}
+      {Audio}
       <DemoSlider data={dataSlider} />
 
       <div className="   mx-auto text-center items-center justify-center relative">
