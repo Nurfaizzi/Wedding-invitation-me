@@ -27,7 +27,7 @@ import Link from "next/link";
 import { useAudio } from "react-use";
 import { motion } from "framer-motion";
 
-export const fontjavasoul = localfont({
+export const FontJavaSoul = localfont({
   src: "./JavasSoul.woff2",
   variable: "--font-JavasSoul",
 });
@@ -149,7 +149,7 @@ const Index = () => {
               Hitung Mundur
             </h1>
             <h2
-              className={`absolute pt-13 text-4xl lg:text-7xl  text-orange-400 text-center ${fontjavasoul.className}`}
+              className={`absolute pt-13 text-4xl lg:text-7xl  text-orange-400 text-center ${FontJavaSoul.className}`}
             >
               Menuju Hari Bahagia
             </h2>
@@ -225,7 +225,7 @@ const Index = () => {
                 Waktu & Tempat{" "}
               </h1>
               <h1
-                className={`font-blod lg:text-8xl xl:text-8xl text-6xl text-center justify-center flex text-orange-400 ${fontjavasoul.className}`}
+                className={`font-blod lg:text-8xl xl:text-8xl text-6xl text-center justify-center flex text-orange-400 ${FontJavaSoul.className}`}
               >
                 pernikahan
               </h1>
@@ -256,17 +256,17 @@ const Index = () => {
               <Image src={burung} alt="wayang" className="w-20 " />
               <h1 className=" font-bold text-gray-500">AKAD</h1>
               <h1
-                className={`text-decoration-line: underline underline-offset-8 font-blod lg:text-4xl xl:text-4xl text-2xl text-center justify-center flex text-orange-400 ${fontjavasoul.className}`}
+                className={`text-decoration-line: underline underline-offset-8 font-blod lg:text-4xl xl:text-4xl text-2xl text-center justify-center flex text-orange-400 ${FontJavaSoul.className}`}
               >
                 Pernikahan
               </h1>
               <div className={`flex flex-col pt-10 `}>
                 <p
-                  className={`text-orange-400 text-4xl ${fontjavasoul.className}`}
+                  className={`text-orange-400 text-4xl ${FontJavaSoul.className}`}
                 >
                   10
                 </p>
-                <p className={`text-black text-2xl ${fontjavasoul.className}`}>
+                <p className={`text-black text-2xl ${FontJavaSoul.className}`}>
                   Desember 2025
                 </p>
               </div>
@@ -284,18 +284,18 @@ const Index = () => {
                 <Image src={burung} alt="wayang" className="w-20 " />
                 <h1 className=" font-bold text-gray-500">Resepsi</h1>
                 <h1
-                  className={`text-decoration-line: underline underline-offset-8 font-blod lg:text-4xl xl:text-4xl text-2xl text-center justify-center flex text-orange-400 ${fontjavasoul.className}`}
+                  className={`text-decoration-line: underline underline-offset-8 font-blod lg:text-4xl xl:text-4xl text-2xl text-center justify-center flex text-orange-400 ${FontJavaSoul.className}`}
                 >
                   Pernikahan
                 </h1>
                 <div className={`flex flex-col pt-10 `}>
                   <p
-                    className={`text-orange-400 text-4xl ${fontjavasoul.className}`}
+                    className={`text-orange-400 text-4xl ${FontJavaSoul.className}`}
                   >
                     10
                   </p>
                   <p
-                    className={`text-black text-2xl ${fontjavasoul.className}`}
+                    className={`text-black text-2xl ${FontJavaSoul.className}`}
                   >
                     Desember 2025
                   </p>
@@ -336,7 +336,7 @@ const Index = () => {
             >
               <h1 className="text-xl text-white">Bertempat Di</h1>
               <h1
-                className={`text-4xl text-yellow-400 ${fontjavasoul.className}`}
+                className={`text-4xl text-yellow-400 ${FontJavaSoul.className}`}
               >
                 Mempelai Wanita
               </h1>
