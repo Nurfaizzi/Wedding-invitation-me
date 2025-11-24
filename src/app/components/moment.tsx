@@ -1,5 +1,4 @@
 import React from "react";
-import localfont from "next/font/local";
 import galeryy1 from "/public/galeryy1.png";
 import galeryy2 from "/public/galeryy2.jpg";
 import galeryy3 from "/public/galeryy3.png";
@@ -9,17 +8,13 @@ import galeryy6 from "/public/galeryy6.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-export const fontjavasoul = localfont({
-  src: "../banner/JavasSoul.woff2",
-  variable: "--font-JavasSoul",
-});
 
 const Moments = () => {
   return (
     <div className="pt-40">
       <div className="flex flex-col justify-center text-center gap-3 pr-16 pl-16">
         <h1 className="text-xl text-white">Moments</h1>
-        <h5 className={`${fontjavasoul.className} text-orange-400 text-6xl`}>
+        <h5 className={` text-orange-400 text-6xl`}>
           Bahagia Kami
         </h5>
         <p className="text-white">

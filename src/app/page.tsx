@@ -3,16 +3,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import localfont from "next/font/local"
 import wayang2 from "/public/wayang2.png"
 import bgone from "/public/bgone.png"
 import * as motion from "motion/react-client"
 
-export const fontjavasoul = localfont({
-  src:"./JavasSoul.woff2",
-  variable : "--font-JavasSoul"
-  
-})
+
 
 
 
@@ -45,7 +40,7 @@ const Banner = () => {
      </div>
 
       <div className="flex pt-3 flex-col mx-auto text-center items-center gap-2 justify-center animate-fade-down animate-infinite ">
-      <h1 className={` ${fontjavasoul.className} absolute pt-70 xl:pt-80 lg:pt-80 md:pt-40 lg:text-6xl xl:text-6xl text-4xl flex text-white  `}>Aya & Rasyid</h1>
+      <h1 className={`  absolute pt-70 xl:pt-80 lg:pt-80 md:pt-40 lg:text-6xl xl:text-6xl text-4xl flex text-white  `}>Aya & Rasyid</h1>
       <p className="text-white text-xl absolute pt-85 xl:pt-105 lg:pt-105 md:pt-60">10 . 12 . 25</p>
      </div>
        <div className="flex  flex-col mx-auto text-center items-center gap-0 pt-8 justify-center">

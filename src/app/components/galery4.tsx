@@ -2,13 +2,9 @@ import React from 'react'
 import batik from '/public/batik.png'
 import Image from 'next/image'
 import galery1 from "/public/galery1.png"
-import localfont from "next/font/local";
+
 import galery4 from "/public/galery4.png"
 
-export const fontjavasoul = localfont({
-  src: "../banner/JavasSoul.woff2",
-  variable: "--font-JavasSoul",
-});
 const Galery4 = () => {
   return (
  <div className=' bg-red-950   relative  w-100vw h-screen ' >
@@ -31,7 +27,7 @@ const Galery4 = () => {
 src={galery4} />
     <div className=" p-3">
         <a href="#">
-            <h5 className={` text-4xl tracking-tight text-gray-900 dark:text-white lg:text-start xl:text-start text-center ${fontjavasoul.className} text-orange-400`}>Pernikahan</h5>
+            <h5 className={` text-4xl tracking-tight  dark:text-white lg:text-start xl:text-start text-center  text-orange-400`}>Pernikahan</h5>
         </a>
         <p className="mb-3 font-normal text-gray-700  lg:text-sm xl:text-sm text-md lg:text-start xl:text-start text-center dark:text-gray-400">Pada tanggal 10 Desember 2025 kami berdua akan mengikrarkan janji suci sebagai awal dari 
 perjalanan ibadah terpanjang yang kami mulai berdua sebagai sepasang suami istri membangun keluarga kecil yang Sakinah mawadah warahmah aamiin.

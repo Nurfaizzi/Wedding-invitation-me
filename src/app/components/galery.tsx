@@ -2,13 +2,9 @@ import React from 'react'
 import batik from '/public/batik.png'
 import Image from 'next/image'
 import galery6 from "/public/galery6.png"
-import localfont from "next/font/local";
 import wayang from "/public/wayang.jpg";
 
-export const fontjavasoul = localfont({
-  src: "../banner/JavasSoul.woff2",
-  variable: "--font-JavasSoul",
-});
+
 const Galery = () => {
   return (
     <div>
@@ -31,7 +27,7 @@ const Galery = () => {
          <div className="">
           <div className='flex justify-center text-center'>
  <h2
-            className={`absolute  justify-center  pt-10 text-4xl lg:text-6xl  text-orange-400 text-center ${fontjavasoul.className}`}
+            className={`absolute  justify-center  pt-10 text-4xl lg:text-6xl  text-orange-400 text-center `}
           >
             Perjalanan Kami
           </h2>
@@ -43,7 +39,7 @@ const Galery = () => {
 src={galery6} />
     <div className=" p-3">
         <a href="#">
-            <h5 className={` text-4xl tracking-tight text-gray-900 dark:text-white lg:text-start xl:text-start text-center ${fontjavasoul.className} text-orange-400`}>Pertama Bertemu</h5>
+            <h5 className={` text-4xl tracking-tight  dark:text-white lg:text-start xl:text-start text-center  text-orange-400`}>Pertama Bertemu</h5>
         </a>
         <p className="mb-3 font-normal text-gray-700  lg:text-sm xl:text-sm text-sm dark:text-gray-400 lg:text-start xl:text-start text-center">Di bulan terakhir 2024 Allah menakdirkan kami berdua untuk bertemu secara tidak sengaja
 dari yang hanya mengenal nama hingga akhirnya bertukar no WhatsApp. Percakapan sederhana dimulai di sana, candaan yang setiap hari di lontarkan hingga akhirnya komunikasi terjalin baik setiap harinya.

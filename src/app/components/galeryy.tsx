@@ -3,13 +3,9 @@ import React from 'react'
 import batik from '/public/batik.png'
 import Image from 'next/image'
 import galery1 from "/public/galery1.png"
-import localfont from "next/font/local";
 import galery2 from "/public/galery2.jpg"
 
-export const fontjavasoul = localfont({
-  src: "../banner/JavasSoul.woff2",
-  variable: "--font-JavasSoul",
-});
+
 const Galeryy = () => {
   return (
     <div className=' bg-red-950   relative  w-100vw h-screen  ' >
@@ -33,7 +29,7 @@ const Galeryy = () => {
 src={galery2} />
     <div className=" p-3">
         <a href="#">
-            <h5 className={`  text-4xl tracking-tight text-gray-900 lg:text-start xl:text-start text-center dark:text-white  ${fontjavasoul.className} text-orange-400`}>Pendekatam</h5>
+            <h5 className={`  text-4xl tracking-tight  lg:text-start xl:text-start text-center dark:text-white   text-orange-400`}>Pendekatam</h5>
         </a>
         <p className="mb-3 font-normal text-gray-700  lg:text-sm xl:text-sm text-md lg:text-start xl:text-start text-center dark:text-gray-400">Baiknya jalinan komunikasi di antara kami membuat kami saling merasa nyaman, di sela kesibukan kami sesekali memutuskan untuk sekedar menikmati indahnya kota Jogjakarta yang romantis. Rasa tidak ingin kehilangan di antara kami mulai tumbuh, jauh di lubuk hati terbesit rasa ingin selalu Bersama dan saling memiliki.
 

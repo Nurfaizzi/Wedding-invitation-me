@@ -32,7 +32,7 @@ const Galeryyy = () => {
 src={galery3} />
     <div className=" p-3">
         <a href="#">
-            <h5 className={`text-4xl tracking-tight text-gray-900 dark:text-white lg:text-start xl:text-start text-center ${fontjavasoul.className} text-orange-400`}>Lamaran</h5>
+            <h5 className={`text-4xl tracking-tight  dark:text-white lg:text-start xl:text-start text-center text-orange-400`}>Lamaran</h5>
         </a>
         <p className=" font-normal text-gray-700  lg:text-sm xl:text-sm text-md dark:text-gray-400 lg:text-start xl:text-start text-center">Kami memutuskan untuk mengenalkan satu sama lain ke keluarga masing masing dan meminta restu
 untuk membawa hubungan kami ke jenjang yang lebih lanjut. Alhamdulillah keluarga kami setuju 

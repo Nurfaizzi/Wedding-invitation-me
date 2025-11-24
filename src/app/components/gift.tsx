@@ -2,15 +2,10 @@ import { useState } from "react";
 
 import Image from "next/image";
 import batik from "/public/batik.png";
-import localfont from "next/font/local";
 import gopay from "/public/gopay.png";
 import bca from "/public/bca.png";
 import kado from "/public/kado.png";
 import { motion } from "framer-motion";
-export const fontjavasoul = localfont({
-  src: "../banner/JavasSoul.woff2",
-  variable: "--font-JavasSoul",
-});
 
 const Gift = () => {
   const [textToCopyBca, setTextToCopyBca] = useState("5721352634");
@@ -68,7 +63,7 @@ const Gift = () => {
       >
         <div className="flex justify-center text-center">
           <h1
-            className={`absolute bg-red-950 justify-center  lg:pt-10 xl:pt-0 pt-5 text-4xl lg:text-6xl  text-orange-400 text-center font-semibold tracking-wider ${fontjavasoul.className}`}
+            className={`absolute bg-red-950 justify-center  lg:pt-10 xl:pt-0 pt-5 text-4xl lg:text-6xl  text-orange-400 text-center font-semibold tracking-wider`}
           >
             Wedding Gift
           </h1>
